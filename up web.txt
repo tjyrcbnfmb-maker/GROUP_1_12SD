@@ -2,128 +2,64 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nhóm 1</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #1d2951;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 600px;
-            margin: 30px auto;
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-            letter-spacing: 2px;
-        }
-
-        .box {
-            background: rgba(255, 255, 255, 0.9);
-            color: #000;
-            border-radius: 10px;
-            padding: 20px;
-            margin-top: 25px;
-        }
-
-        .box h2 {
-            text-align: center;
-            margin-bottom: 15px;
-        }
-
-        .item {
-            background: #f3f3f3;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 8px;
-        }
-
-        .accordion-item {
-            background: #f3f3f3;
-            margin-bottom: 8px;
-            padding: 10px;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-
-        input {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            border-radius: 5px;
-            border: 1px solid #aaa;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            border: none;
-            background: #3b5bdb;
-            color: #fff;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-    </style>
+    <title>Nhóm 1 - Tin học 12</title>
 </head>
-
 <body>
 
-    <h1>NHÓM 1</h1>
-    <div class="container">
+    <h1 style="text-align:center;">NHÓM 1</h1>
 
-        <!-- MEMBERS -->
-        <div class="box">
-            <h2>MEMBERS</h2>
+    <!-- PHẦN 1: THÀNH VIÊN -->
+    <h2>Thành viên</h2>
+    <ul>
+        <li>Âu Mỹ Uyên</li>
+        <li>Hoàng Xuân Yến</li>
+        <li>Lê Bạch Tường Vy</li>
+        <li>Tô Thuỵ Thảo Hiền</li>
+        <li>Nguyễn Trương Tuyền</li>
+    </ul>
 
-            <div class="item">Âu Mỹ Uyên</div>
-            <div class="item">Hoàng Xuân Yến</div>
-            <div class="item">Lê Bạch Tường Vy</div>
-            <div class="item">Tô Thuỵ Thảo Hiền</div>
-            <div class="item">Nguyễn Trương Tuyền</div>
-        </div>
+    <hr>
 
-        <!-- BÀI HỌC -->
-        <div class="box">
-            <h2>BÀI HỌC</h2>
+    <!-- PHẦN 2: BÀI HỌC -->
+    <h2>Bài học</h2>
+    <ol>
+        <li>Bài 1</li>
+        <li>Bài 2</li>
+        <li>Bài 3</li>
+        <li>Bài 4</li>
+        <li>Bài 5</li>
+        <li>Bài 6</li>
+        <li>Bài 7</li>
+        <li>Bài 8</li>
+        <li>Bài 9</li>
+        <li>Bài 10</li>
+        <li>Bài 11</li>
+        <li>Bài 12</li>
+    </ol>
 
-            <!-- 12 bài giống kiểu Po gửi -->
-            <div class="accordion-item">Bài 1</div>
-            <div class="accordion-item">Bài 2</div>
-            <div class="accordion-item">Bài 3</div>
-            <div class="accordion-item">Bài 4</div>
-            <div class="accordion-item">Bài 5</div>
-            <div class="accordion-item">Bài 6</div>
-            <div class="accordion-item">Bài 7</div>
-            <div class="accordion-item">Bài 8</div>
-            <div class="accordion-item">Bài 9</div>
-            <div class="accordion-item">Bài 10</div>
-            <div class="accordion-item">Bài 11</div>
-            <div class="accordion-item">Bài 12</div>
-        </div>
+    <hr>
 
-        <!-- FORM -->
-        <div class="box">
-            <h2>FORM ĐIỀN THÔNG TIN</h2>
+    <!-- PHẦN 3: FORM ĐIỀN THÔNG TIN -->
+    <h2>Form điền thông tin</h2>
 
-            <input type="text" placeholder="Họ và tên">
-            <input type="date">
-            <input type="text" placeholder="SĐT">
-            <input type="text" placeholder="Trường học">
-            <input type="text" placeholder="Lớp">
+    <form>
+        <label>Họ và tên:</label><br>
+        <input type="text"><br><br>
 
-            <button>Gửi</button>
-        </div>
+        <label>Ngày tháng năm sinh:</label><br>
+        <input type="date"><br><br>
 
-    </div>
+        <label>Số điện thoại:</label><br>
+        <input type="text"><br><br>
+
+        <label>Trường học:</label><br>
+        <input type="text"><br><br>
+
+        <label>Lớp:</label><br>
+        <input type="text"><br><br>
+
+        <button>Gửi</button>
+    </form>
 
 </body>
 </html>
